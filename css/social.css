@@ -1,0 +1,120 @@
+/* start global rules */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--Grey900);
+  height: 100vh;
+  align-content: center;
+}
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+}
+
+/* End global rules */
+
+/* start card */
+
+.card {
+  width: 350px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--Grey800);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+}
+
+
+.card .containar {
+  padding: 30px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card .containar .image-caption {
+  margin: 25px;
+}
+
+.card .containar .image-caption h1 {
+  color: var(--White);
+  font-size: 25px;
+}
+
+.card .containar .image-caption p {
+  color: var(--Green);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card .containar>p {
+  color: var(--White);
+
+  font-size: 14px;
+}
+
+
+.links {
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+
+.links p {
+  background-color: var(--Grey700);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.links p:hover {
+  background-color: var(--Green);
+}
+
+.links p:hover a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: var(--White);
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* End card */
